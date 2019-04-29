@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "199808277053",
+    "firebase_url": "https://tailorbooking-3857c.firebaseio.com",
+    "project_id": "tailorbooking-3857c",
+    "storage_bucket": "tailorbooking-3857c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199808277053:android:1e51775cd3d3aa21",
+        "android_client_info": {
+          "package_name": "com.example.prudhvi.onlinetailorbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199808277053-b9iqtmbb3678tqhpmbv2mbjascdu5r73.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prudhvi.onlinetailorbooking",
+            "certificate_hash": "66bf833639083eea29c5fb517dc24387d23b3edd"
+          }
+        },
+        {
+          "client_id": "199808277053-9tvs6tnd368nqh245u6q8f8kcqrr30vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjsVWdADnJK26stshfTP_m6TvjjfKcZ4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199808277053-9tvs6tnd368nqh245u6q8f8kcqrr30vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

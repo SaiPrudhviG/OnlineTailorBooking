@@ -1,0 +1,77 @@
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear3">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="300dp"
+                android:src="@drawable/menbackground"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear3"
+            android:orientation="vertical">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp">
+
+                <EditText
+                    android:id="@+id/dresstype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter type of Dress*"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="6dp"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp">
+
+                <EditText
+                    android:id="@+id/quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter quantity of dresses*"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="6dp"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/BookSlot"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Book Tailor"
+                android:background="@drawable/roundshapedstyle"
+                android:backgroundTint="#2ea2f4"
+                android:padding="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
